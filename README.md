@@ -1,4 +1,4 @@
-# Vite + TS + Vue + Prettier
+# Vite + TS + Vue + Express
 
 ```bash
 yarn && yarn dev
