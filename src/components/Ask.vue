@@ -23,7 +23,7 @@
 <template>
   <div class="shadow rounded p-4 mt-4">
     <h3>{{ question }}</h3>
-    <p class="text-xl font-bold">{{ answer }}</p>
+    <p class="text-xl font-bold">{{ answer ?? 'asking..' }}</p>
     <p v-if="answer?.length > 0" class="text-sm p-2 bg-gray-100 rounded italic">Fetched from the express server, proxied by Vite.</p>
   </div>
 </template>

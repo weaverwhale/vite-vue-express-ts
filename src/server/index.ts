@@ -28,7 +28,7 @@ app.use(cors())
 // -----------------------
 // routes
 // -----------------------
-app.post('/api/ask', (req: Request, res: Response) => handler(req, res, 'kb'))
+app.post('/api/ask', (req: Request, res: Response) => handler(req, res, 'ask'))
 
 // -----------------------
 // ping / keepalive
