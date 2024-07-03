@@ -8,14 +8,14 @@ export const routes = [
     path: '/',
     component: IndexPage,
     meta: {
-      title: 'Vite + Vue + TS',
+      title: 'Home',
     },
   },
   {
     path: '/demo/',
     component: DemoPage,
     meta: {
-      title: 'Demo Page',
+      title: 'Demo',
     },
   },
 ]
